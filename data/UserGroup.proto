@@ -1,0 +1,16 @@
+//指定版本 使用protobuf3
+syntax = "proto3";
+option go_package = "data/dataImpl";
+message UserGroup {
+  //群组id
+  uint64 id = 1;
+  //类型
+  uint64 type = 2;
+  //成员数量
+  uint64 size = 3;
+  //群组名称
+  string name = 4;
+
+  repeated int64 listUserId = 5;
+
+}

@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+option go_package = "data/dataImpl";
+message LoginUserSession {
+  //用户id
+  uint64 id = 1;
+  //类型
+  uint64 type = 2;
+  //用户昵称
+  string name = 3;
+  //是否登陆
+  bool isLogin = 4;
+
+}
+

@@ -1,0 +1,6 @@
+syntax = "proto3";
+option go_package = "data/dataImpl";
+
+//import "Message.proto";
+//import "User.proto";
+//import "UserGroup.proto";
